@@ -83,9 +83,13 @@
         grid-area: description;
     }
     .title p{
-        text-align: center;
+        width: 900px;
+        margin: auto;
+        font: 1em sans-serif;
+        background-color: aqua;
     }
     .other{
+        background-color: antiquewhite;
         width: 900px;
         margin: auto;
         display: grid;
@@ -97,21 +101,27 @@
     }
     .khmer{
         grid-area: khmer;
+        background-color: aqua;
     }
     .korean{
         grid-area: korean;
+        background-color: aqua;
     }
     .chinese1{
         grid-area: chinese1;
+        background-color: aqua;
     }
     .chinese2{
         grid-area: chinese2;
+        background-color: aqua;
     }
     .korean1{
         grid-area: korean1;
+        background-color: aqua;
     }
     .chinese3{
         grid-area: chinese3;
+        background-color: aqua;
     }
 
 
