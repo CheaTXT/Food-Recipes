@@ -143,10 +143,11 @@
     }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
-    nav{
+     nav{
         width: 900px;
         display: flex;
         margin: auto;
+        background-color: aqua;
     }
     nav .title{
     
@@ -180,12 +181,12 @@
     }
     nav .list ul li a:focus{
         text-decoration: underline blue;
-        /* background-color: red; */
+        background-color: red;
     }
     nav .list ul li a:hover{
         background-color: azure;
-    }
-    /* .container p{
+    } 
+    .container p{
         font-size: 20px;
     }
     .container{
@@ -286,25 +287,37 @@
 
 @media screen and (min-width: 600px) and (max-width: 700px) {
     nav{
-        background-color: antiquewhite;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "title"
+        "list";
+        /* background-color: antiquewhite;
+        display: flex; */
     }
     nav .title{
+        margin: auto;
+        text-align: center;
         background-color: aqua;
         height: 100px;
         font-size: 1.5em;
+        grid-area: title;
     }
     nav .list{
+        margin: auto;
+        background-color: antiquewhite;
         height: 100px;
+        grid-area: list;
     }
     nav .list ul{
         list-style: none ;
         display: flex;
         margin: auto
     }
-    /* nav .list ul li{
+    nav .list ul li{
         padding: 10px;
-    } */
+    } 
     nav .list ul li a{
         font-size: 1.2em;
         text-decoration: none;
@@ -313,7 +326,7 @@
     }
     nav .list ul li a:focus{
         text-decoration: underline blue;
-        /* background-color: red; */
+        background-color: red;
     }
     nav .list ul li a:hover{
         background-color: azure;
@@ -321,8 +334,9 @@
     .container p{
         font-size: 20px;
     }
-    /* .container{
-        width: 900px;
+    .container{
+        background-color: aquamarine;
+        width: 600px;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -414,7 +428,7 @@
         width: 100%;
         height: 100%;
         background-color: black;
-    } */ 
+    } 
 }
 
 
