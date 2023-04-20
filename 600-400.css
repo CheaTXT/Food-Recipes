@@ -1,0 +1,74 @@
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    nav{
+        width: 100vw;
+        background-color: blue;
+    }
+    nav .title{
+       background-color: aqua;
+    }
+    .list{
+        background-color: bisque;
+    }
+    .container{
+        width: 100vw;
+        display: block;
+    }
+    .container .img{
+        margin: auto;
+        width: 70vw;
+        height: 40vh;
+    }
+    .container .step1{
+        margin-top: 10px;
+    }
+    .container .step2{
+        margin-top: 10px;
+    }
+    .container .step3{
+        margin-top: 10px;
+    }
+    .container p{
+        text-align: justify;
+    }
+    .container .step4{
+        margin-top: 10px;
+    }
+    .container .description{
+        margin-top: 10px;
+    }
+    .other{
+        background-color: white;
+        margin: auto;
+        width: 100vw;
+        display: block;
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .other .khmer{
+        margin: auto;
+        width: 50vw;
+    }
+    .other .korean{
+        margin: auto;
+        width: 50vw;
+    }
+    .other .chinese1{
+        margin: auto;
+        width: 50vw;
+    }
+    .other .chinese2{
+        margin: auto;
+        width: 50vw;
+    }
+    .other .korean1{
+        margin: auto;
+        width: 50vw;
+    }
+    .other .chinese3{
+        margin: auto;
+        width: 50vw;
+    }
+    
+}
