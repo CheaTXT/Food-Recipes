@@ -7,9 +7,7 @@
         grid-template-rows: 1fr;
         grid-template-areas: 
         "title"
-        "list";
-        /* margin: auto; */
-        
+        "list"; 
     }
     nav .title{
         /* margin: auto; */
