@@ -1,13 +1,17 @@
 @media screen and (min-width: 400px) and (max-width: 600px) {
     nav{
+        display: block;
         width: 100vw;
-        background-color: blue;
+        /* background-color: blue; */
     }
     nav .title{
        background-color: aqua;
     }
-    .list{
+    nav .list{
         background-color: bisque;
+    }
+    nav .list ul li{
+        display: flex;
     }
     .container{
         width: 100vw;
