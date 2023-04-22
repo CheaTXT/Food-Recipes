@@ -1,6 +1,11 @@
-@media only screen and (min-width: 600px) and (max-width: 700px){
+@media screen and (min-width: 600px) and (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     nav{
-        background-color: blue;
+        margin: 0;
         width: 100vw;
         display: grid;
         grid-template-columns: 1fr;
@@ -9,16 +14,22 @@
         "title"
         "list"; 
     }
-    nav .title{
-        /* margin: auto; */
+    nav .title p{
         text-align: center;
-        background-color: aqua;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    nav .title{
+        background-color: antiquewhite;
+        width: 100vw;
+        height: 60px;
+        text-align: center;
         font-size: 1.5em;
         grid-area: title;
     }
     nav .list{
-        /* margin: auto; */
-        background-color: antiquewhite;
+        height: 60px;
+        width: 100vw;
         grid-area: list;
     }
     nav .list ul{
@@ -27,13 +38,12 @@
         margin: auto
     }
     nav .list ul li{
-        padding: 10px;
+        padding: 20px;
     } 
     nav .list ul li a{
         font-size: 1.2em;
         text-decoration: none;
         color: black;
-        margin: 0;
     }
     nav .list ul li a:focus{
         text-decoration: underline blue;
@@ -42,13 +52,18 @@
     nav .list ul li a:hover{
         background-color: azure;
     }
+    nav .list ul li a:is(:link, :active, :visited).active {
+        color: rgb(0, 34, 255);
+        text-decoration: underline double;
+    }
     .container p{
+        text-align: justify;
         font-size: 20px;
     }
     .container{
-        background-color: aquamarine;
+        padding: 25px;
+        margin: 0;
         width: 100vw;
-        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.5fr 0.2fr 0.2fr 1fr;
@@ -58,14 +73,18 @@
         "description step3"
         "description step4";
         gap: 20px;
+        height: 900px;
         
     }
     .img img{
+        margin-top: 60px;
         width: 100%;
         height: 70%;
         
     }
     .img{
+        
+        /* background-color: antiquewhite; */
         grid-area: img;
     }
     .step1{
@@ -83,16 +102,16 @@
     .description{
         grid-area: description;
     }
-    .title p{
-        width: 900px;
-        margin: auto;
-        font: 1em sans-serif;
-        
+    .title01{
+        font-family: 'Anton', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 30px;
     }
+    
     .other{
-        background-color: antiquewhite;
+        margin: 0;
+        background-color: white;
         width: 100vw;
-        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr; 
@@ -102,27 +121,33 @@
         " korean1 chinese3";
         gap: 30px;
     }
-
+    .other img{
+        margin: 0;
+    }
     .khmer img{
-        border: solid black;
+        margin: 0;
+        border: none;
         grid-area: khmer;
         width: 100%;
         height: 100%;
         background-color: aqua;
     }
     .korean img{
+        margin: 0;
         grid-area: korean;
         width: 100%;
         height: 100%;
         background-color: black;
     }
     .chinese1 img{
+        margin: 0;
         grid-area: chinese1;
         width: 100%;
         height: 100%;
         background-color: beige;
     }
     .chinese2 img{
+        margin: 0;
         grid-area: chinese2;
         width: 100%;
         height: 100%;
@@ -135,6 +160,7 @@
         background-color: yellow;
     }
     .chinese3 img{
+        margin: 0;
         grid-area: chinese3;
         width: 100%;
         height: 100%;

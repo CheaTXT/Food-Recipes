@@ -1,21 +1,55 @@
-@media screen and (min-width: 400px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+      }
+      
     nav{
-        display: block;
+        margin: 0px;
+        flex-direction: column;
         width: 100vw;
     }
+    
     nav .title{
-       /* background-color: aqua; */
+        text-align: center; 
+        align-items: center;
+        background-color: aquamarine;
+        height: 50px;
+        width: 100vw;
+    }
+    nav .title p{
+        
+        font-family: 'Anton', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
     }
     nav .list{
-        /* background-color: bisque; */
+        text-align: justify;
+        justify-content: flex-end;
+        width: 100vw;
+        height: 220px;
     }
-    nav .list ul li a{
+    nav .list ul{
+        
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    nav .list ul li a{  
         padding: 10px;
-        display: flex;
+        /* display: table-column; */
+        /* margin-bottom: 100px; */
     }
     .container{
+        margin: 0;
         width: 100vw;
         display: block;
+        padding: 0px 30px 0px 5px;
+    }
+    .container img{
+        margin: 0;
     }
     .container .img{
         margin: auto;
@@ -40,13 +74,18 @@
     .container .description{
         margin-top: 10px;
     }
+    .other img{
+        margin: 0;
+    }
     .other{
+        display: none;
+        margin: 0;
         background-color: white;
         margin: auto;
         width: 100vw;
         display: block;
     }
-    .title{
+    .title01{
         margin-top: 20px;
         font-size: 40px;
     }

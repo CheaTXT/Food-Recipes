@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
     nav{
@@ -84,7 +86,7 @@
     .description{
         grid-area: description;
     }
-    .title p{
+    .title01 p{
         width: 900px;
         margin: auto;
         font: 1em sans-serif;
