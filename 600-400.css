@@ -2,15 +2,15 @@
     nav{
         display: block;
         width: 100vw;
-        /* background-color: blue; */
     }
     nav .title{
-       background-color: aqua;
+       /* background-color: aqua; */
     }
     nav .list{
-        background-color: bisque;
+        /* background-color: bisque; */
     }
-    nav .list ul li{
+    nav .list ul li a{
+        padding: 10px;
         display: flex;
     }
     .container{
