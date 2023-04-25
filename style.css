@@ -46,6 +46,10 @@
     nav .list ul li a:hover{
         background-color: azure;
     }
+    nav .list ul li a:is(:link, :active, :visited).active {
+        color: rgb(0, 34, 255);
+        text-decoration: underline double;
+    }
     .container p{
         font-size: 20px;
     }
@@ -89,12 +93,12 @@
     .title01 p{
         width: 900px;
         margin: auto;
-        font: 1em sans-serif;
+        font: 1.5em sans-serif;
         
     }
     .other{
         
-        background-color: antiquewhite;
+        /* background-color: antiquewhite; */
         width: 900px;
         margin: auto;
         display: grid;
@@ -107,7 +111,6 @@
     }
 
     .khmer img{
-        border: solid black;
         grid-area: khmer;
         width: 100%;
         height: 100%;

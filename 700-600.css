@@ -13,14 +13,14 @@
         grid-template-areas: 
         "title"
         "list"; 
+        display: none;
     }
     nav .title p{
-        text-align: center;
+        margin: auto;
         font-family: 'Anton', sans-serif;
         font-family: 'Ubuntu', sans-serif;
     }
     nav .title{
-        background-color: antiquewhite;
         width: 100vw;
         height: 60px;
         text-align: center;
@@ -165,5 +165,5 @@
         width: 100%;
         height: 100%;
         background-color: black;
-    } 
+    }
 }

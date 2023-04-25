@@ -15,14 +15,11 @@
     }
     
     nav .title{
-        text-align: center; 
-        align-items: center;
-        background-color: aquamarine;
         height: 50px;
         width: 100vw;
     }
     nav .title p{
-        
+        margin: auto;
         font-family: 'Anton', sans-serif;
         font-family: 'Ubuntu', sans-serif;
     }
@@ -41,6 +38,10 @@
         padding: 10px;
         /* display: table-column; */
         /* margin-bottom: 100px; */
+    }
+    nav .list ul li a:is(:link, :active, :visited).active {
+        color: rgb(0, 34, 255);
+        text-decoration: underline double;
     }
     .container{
         margin: 0;
