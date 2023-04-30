@@ -13,7 +13,7 @@
         grid-template-areas: 
         "title"
         "list"; 
-        display: none;
+        
     }
     nav .title p{
         margin: auto;
@@ -73,18 +73,15 @@
         "description step3"
         "description step4";
         gap: 20px;
-        height: 900px;
+        height: 950px;
         
     }
     .img img{
         margin-top: 60px;
         width: 100%;
         height: 70%;
-        
     }
     .img{
-        
-        /* background-color: antiquewhite; */
         grid-area: img;
     }
     .step1{
@@ -109,7 +106,7 @@
     }
     
     .other{
-        margin: 0;
+        /* margin: 0; */
         background-color: white;
         width: 100vw;
         display: grid;
@@ -122,48 +119,49 @@
         gap: 30px;
     }
     .other img{
-        margin: 0;
+        width: 50%;
+        height: auto;
+        margin: auto;
     }
     .khmer img{
-        margin: 0;
+        margin: auto;
         border: none;
         grid-area: khmer;
-        width: 100%;
-        height: 100%;
+        
         background-color: aqua;
     }
     .korean img{
         margin: 0;
         grid-area: korean;
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         background-color: black;
     }
     .chinese1 img{
         margin: 0;
         grid-area: chinese1;
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         background-color: beige;
     }
     .chinese2 img{
         margin: 0;
         grid-area: chinese2;
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         background-color: red;
     }
     .korean1 img{
         grid-area: korean1;
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         background-color: yellow;
     }
     .chinese3 img{
         margin: 0;
         grid-area: chinese3;
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         background-color: black;
     }
 }
